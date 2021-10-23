@@ -1,7 +1,7 @@
 package at.thebuckey_.advanced_mobs.core.init.item;
 
 import at.thebuckey_.advanced_mobs.Advanced_mobs;
-import net.minecraft.world.item.CreativeModeTab;
+import at.thebuckey_.advanced_mobs.core.init.ModCreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fmllegacy.RegistryObject;
