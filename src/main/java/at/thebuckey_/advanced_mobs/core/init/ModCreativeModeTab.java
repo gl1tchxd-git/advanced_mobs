@@ -1,5 +1,6 @@
-package at.thebuckey_.advanced_mobs.core.init.item;
+package at.thebuckey_.advanced_mobs.core.init;
 
+import at.thebuckey_.advanced_mobs.core.init.item.ItemInit;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 

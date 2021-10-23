@@ -2,7 +2,7 @@ package at.thebuckey_.advanced_mobs.core.init.block;
 
 import at.thebuckey_.advanced_mobs.Advanced_mobs;
 import at.thebuckey_.advanced_mobs.core.init.item.ItemInit;
-import at.thebuckey_.advanced_mobs.core.init.item.ModCreativeModeTab;
+import at.thebuckey_.advanced_mobs.core.init.ModCreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;

@@ -5,6 +5,6 @@
 
   "block.advanced_mobs.titanium_block": "Titanium Block",
 
-  "itemGroup.advanced_mobs_misc": "Advanced Mobs Miscellaneous",
-  "itemGroup.advanced_mobs": "Advanced Mobs"
+  "itemGroup.advanced_mobs_misc_tab": "Advanced Mobs Miscellaneous",
+  "itemGroup.advanced_mobs_tab": "Advanced Mobs"
 }
