@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "normal": {"model": "advanced_mobs:block/titanium_block"}
+  }
+}
