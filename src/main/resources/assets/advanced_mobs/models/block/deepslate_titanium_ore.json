@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "advanced_mobs:block/deepslate_titanium_block"
+  }
+}
