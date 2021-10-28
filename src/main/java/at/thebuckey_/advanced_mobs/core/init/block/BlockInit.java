@@ -21,10 +21,14 @@ public class BlockInit {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Advanced_mobs.MOD_ID);
     //---------------------------
     public static final RegistryObject<Block> TITANIUM_BLOCK = registerBlock("titanium_block",
-            ()-> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(20f)));
+            ()-> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(20f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> TITANIUM_ORE = registerBlock("titanium_ore",
-            ()-> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(14f)));
+            ()-> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(14f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> DEEPSLATE_TITANIUM_ORE = registerBlock("deepslate_titanium_ore",
+            ()-> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(14f).requiresCorrectToolForDrops()));
+
 
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
