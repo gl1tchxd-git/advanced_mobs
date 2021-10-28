@@ -26,6 +26,10 @@ public class BlockInit {
     public static final RegistryObject<Block> TITANIUM_ORE = registerBlock("titanium_ore",
             ()-> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(14f)));
 
+    public static final RegistryObject<Block> DEEPSLATE_TITANIUM_ORE = registerBlock("deepslate_titanium_ore",
+            ()-> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(14f)));
+
+
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
