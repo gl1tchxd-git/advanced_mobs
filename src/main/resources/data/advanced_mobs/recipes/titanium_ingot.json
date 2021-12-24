@@ -1,0 +1,12 @@
+{
+  "type" : "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "advanced_mobs:titanium_block"
+}
+],
+"result": {
+"item": "advanced_mobs:titanium_ingot",
+"count": 9
+}
+}
